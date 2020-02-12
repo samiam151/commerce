@@ -8,12 +8,12 @@ import { Alert } from "reactstrap";
 import { TermsPayment } from "./Terms";
 import { CreditCardPayment } from "./CreditCard";
 
-function _PaymentComponent({checkout, ...props}) {
-    console.log(checkout, props);
+function _PaymentComponent({...props}) {
+    
     return (
         <div className="checkout__payment">
             <h3>Payment Method</h3>
-            {Boolean(checkout.payment) && <Alert color="success">Payment method has been set.</Alert>}
+            {Boolean(props.checkout.payment) && <Alert color="success">Payment method has been set.</Alert>}
             <Choose options={[
                 {
                     label: "Terms",

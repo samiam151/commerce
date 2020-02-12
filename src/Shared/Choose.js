@@ -37,10 +37,9 @@ export function Choose({ options, ...props }) {
           })}
         </FormGroup>
       </div>
-      <div className="choose__content">{React.cloneElement(
-        optionSelected["content"],
-        props
-      )}</div>
+      <div className="choose__content">
+        {React.cloneElement(optionSelected["content"])}
+      </div>
     </div>
   );
 }

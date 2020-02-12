@@ -2,7 +2,7 @@ import React from "react";
 import {Form, Input, Button, Label, InputGroupAddon, InputGroup } from "reactstrap";
 
 export function TermsPayment({checkout, ...props}) {
-  console.log(checkout);
+  console.log(checkout, props);
   function submitPayment(e) {
     e.preventDefault();
     e.stopPropagation();

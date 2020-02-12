@@ -9,7 +9,6 @@ import { CartContext } from "../Contexts/Cart/CartContext";
 
 function SearchPageProductsComponent({ searchContext, ...props }) {
   const [activeProducts, setActiveProducts] = useState(data);
-  console.log(props);
   useEffect(() => {
     let productsToShow = calculateSearchProducts(searchContext);
     setActiveProducts(productsToShow);
