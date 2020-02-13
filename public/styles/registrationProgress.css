@@ -1,48 +1,64 @@
 /* Progress */
+
 nav.checkoutProgress {
-    padding: 0 0.5em 2rem; }
-    nav.checkoutProgress ul.checkoutProgress__ul {
-      padding: 0;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      max-width: 475px;
-      margin: 0 auto; }
-      nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item {
-        list-style-type: none;
-        color: #cfd3d4;
-        text-transform: uppercase;
-        font-size: 13px;
-        width: 33%;
-        position: relative; }
-        nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item a {
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-flex-flow: column nowrap;
-              -ms-flex-flow: column nowrap;
-                  flex-flow: column nowrap;
-          -webkit-align-items: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          color: #cfd3d4;
-          text-decoration: none; }
-        nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item i {
-          font-size: 14px;
-          margin-bottom: 17px; }
-        nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item.checkoutProgress__item--active a {
-          color: #1a1a1a; }
-        nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item:not(:last-of-type):before {
-          content: "";
-          position: absolute;
-          border-top: 2px solid #cfd3d4;
-          width: 100%;
-          top: 5px;
-          left: 50%;
-          z-index: -1; }
+    padding: 0 0.5em 2rem;
+}
+
+nav.checkoutProgress ul.checkoutProgress__ul {
+    padding: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 475px;
+    margin: 0 auto;
+}
+
+nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item {
+    list-style-type: none;
+    color: #cfd3d4;
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 33%;
+    position: relative;
+}
+
+nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item a {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #cfd3d4;
+    text-decoration: none;
+}
+
+nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item i {
+    font-size: 14px;
+    margin-bottom: 17px;
+    position: relative;
+    top: 1px;
+}
+
+nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item.checkoutProgress__item--active a {
+    color: #1a1a1a;
+}
+
+nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item:not(:last-of-type):before {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #cfd3d4;
+    width: 100%;
+    top: 5px;
+    left: 50%;
+    z-index: -1;
+}
 
 nav.checkoutProgress ul.checkoutProgress__ul li.checkoutProgress__item i {
     background-color: #ccc;

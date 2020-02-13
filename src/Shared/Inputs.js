@@ -10,34 +10,45 @@ export function NotEmptyInput(props) {
 
 export function IsEmailInput(props) {
     return <BaseInput validators={[
-        validator.isEmail,
+        invert(validator.isEmail),
         validator.isEmpty
     ]} {...props} />
 }
 
-export function BaseInput({validators, ...props}) {
+export function BaseInput({ validators, ...props }) {
     const [value, setValue] = useState(props.initValue || "");
     const [hasError, setHasError] = useState(false);
-
     function handleChange(e) {
         let value = e.target.value;
+        console.log(value);
         setValue(value);
+        let _hasError = false;
         validators.forEach(val => {
-            if(val(value) && !hasError) {
-                setHasError(true)                
+            if (val(value)) {
+                _hasError = true
             }
-        })
+        });
+        _hasError && setHasError(true)
     }
 
     return (
         <Fragment>
-            <Input type="email" 
-                defaultValue={value} 
-                name={props.name || ""} 
+            <Input 
+                type={props.type || "text"}
+                className={props.className || ""}
+                required={props.required || false}
+                defaultValue={value}
+                name={props.name || ""}
                 id={props.id || ""}
                 onChange={handleChange}
                 invalid={Boolean(hasError)}
             />
         </Fragment>
     );
+}
+
+function invert(func) {
+    return function(...args){
+        return !func(...args);
+    }
 }
