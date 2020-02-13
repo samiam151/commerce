@@ -1,0 +1,36 @@
+.miniCart {
+    /* font-size: 12px;
+    position: absolute;
+    background-color: lightgray;
+    top: 49px;
+    z-index: 100;
+    border-radius: 0 0 6px 6px;
+    color: black; */
+  }
+  .minicart__items {
+    font-size: 12px;
+  }
+  
+  .miniCart__price {
+    padding: 0px 14px;
+  }
+
+  .miniCart .dropdown-menu.show {
+    display: block;
+    width: 320px;
+    left: auto;
+  }
+
+  .miniCart--buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 0 5%;
+  }
+  
+  .miniCart--buttons a,
+  .miniCart--buttons button {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 6px;
+  }

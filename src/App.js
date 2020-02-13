@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import SearchPageProducts from "./Search/SearchPageProducts";
 import { Container, Row, Col } from "reactstrap";
 import SearchBar from "./Search/SearchBar";
@@ -9,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { CheckoutPage } from "./Checkout/OneCheckout";
 import { SignInPage } from "./Authentication/SignInPage";
 import PracticePage from "./Practice";
+import { RegistrationPage } from "./Registration";
 
 export default function App() {
   return (
@@ -34,6 +34,11 @@ export default function App() {
               {/* Sign In Page */}
               <Route path="/log-in">
                 <SignInPage />
+              </Route>
+
+              {/* Registration Page */}
+              <Route path="/register">
+                <RegistrationPage />
               </Route>
 
               {/* Home Page */}

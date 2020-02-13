@@ -1,0 +1,38 @@
+header {
+    /* font-size: 2em; */
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0.5em 0;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
+  
+  header p {
+    margin-bottom: 0;
+  }
+  
+  /* h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111;
+  } */
+  .header--links {
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+
+  .header--links a {
+    margin-right: 1.5em;
+    text-transform: uppercase;
+    color: white;
+  }
+  .header--row > div {
+    display: flex;
+    align-items: center;
+  }

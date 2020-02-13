@@ -36,21 +36,22 @@ export default function MiniCart(props) {
           <MiniCartItems items={cartItems} />
           <MiniCartPrice total={cart.total()} />
           <hr />
-          <Link to="/checkout">
-            <Button block color="primary" onClick={e => toggle(false)}>
-              Checkout
+          <div className="miniCart--buttons">
+            <Link to="/checkout">
+              <Button block color="primary" onClick={e => toggle(false)}>
+                Checkout
+              </Button>
+            </Link>
+            <Button
+              color="danger"
+              onClick={e => {
+                cart.clearCart();
+                toggle(false);
+              }}
+            >
+              Clear Cart
             </Button>
-          </Link>
-          <Button
-            block
-            color="danger"
-            onClick={e => {
-              cart.clearCart();
-              toggle(false);
-            }}
-          >
-            Clear Cart
-          </Button>
+          </div>
         </DropdownMenu>
       </Dropdown>
     </div>

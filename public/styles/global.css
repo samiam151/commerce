@@ -1,0 +1,20 @@
+.App {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .fa, .fas {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+  }
+  .fa, .fas, .far, .fal, .fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }

@@ -21,9 +21,10 @@ function Header({ cart, user, search, ...props }) {
             <p>PageBroke Home</p>
           </Col>
           <Col xs="6" className="header--links">
-            <Link to="/">Search</Link>
             <Link to="/practice">Utilitiy Components</Link>
+            <Link to="/">Search</Link>
             {!user.activeUser && <Link to="/log-in">Log In</Link>}
+            {!user.activeUser && <Link to="/register">Register</Link>}
             {user.activeUser && <Link to="/checkout">Checkout</Link>}
             {user.activeUser && (
               <a href="#" onClick={e => signOut(e)}>

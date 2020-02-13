@@ -1,0 +1,34 @@
+.property {
+    margin-bottom: 0.5em;
+  }
+  
+  .searchbar .form-check-input {
+    position: static;
+    margin-left: 0;
+    margin-right: 0.5em;
+  }
+  
+  .oneCheckout--sidebar {
+    background-color: #eee;
+    padding: 0.5em;
+    border-radius: 3px;
+  }
+  
+  .container-fluid {
+    max-width: 1720px;
+  }
+  
+  .choose__content {
+    padding: 1em 2em;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+  }
+  
+  .signInPage button {
+    margin-right: 1em;
+  }
+
+  .btn {
+    border-radius: 0;
+    text-transform: uppercase;
+  }

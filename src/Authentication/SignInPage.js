@@ -33,9 +33,9 @@ function SignInPageComponent({ user, ...props }) {
     <Redirect to="/" />
   ) : (
     <div className="signInPage">
-      <h2>Log In</h2>
       <Row>
         <Col xs="12" md="6">
+          <h2>Log In</h2>
           {verified === false && (
             <Alert color="danger">Username or Password is incorrect.</Alert>
           )}

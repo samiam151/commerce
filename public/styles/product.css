@@ -1,0 +1,36 @@
+.product {
+    background-color: #f3f3f3b1;
+    padding: 12px;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    height: 100%;
+  }
+  .product img {
+    width: 100%;
+    margin-bottom: 1.25em;
+    border-radius: 3px;
+  }
+  
+  .addToCart {
+    width: 100%;
+    /* background-color: orange; */
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700;
+  }
+  .addToCart:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .lineItem {
+    background-color: #f3f3f3b1;
+    padding: 12px;
+    border-radius: 3px;
+    margin-bottom: 1em;
+  }
+
+.productRow > * {
+    margin-bottom: 2em;
+  }
+  

@@ -1,20 +1,23 @@
-import React from "react";
-import {Form, Input, Button, Label, InputGroupAddon, InputGroup } from "reactstrap";
+import React, { useState } from "react";
+import {Form, Input, Button, InputGroupAddon, InputGroup } from "reactstrap";
 
 export function TermsPayment({checkout, ...props}) {
-  console.log(checkout, props);
+  const [value, setValue] = useState("");
+
   function submitPayment(e) {
     e.preventDefault();
     e.stopPropagation();
-    checkout.update("payment", {
-      type: "terms",
-      value: e.target.value
-    })
+    if (value.length) {
+      checkout.update("payment", {
+        type: "terms",
+        value: value
+      })
+    }
   }
   return (
     <Form onSubmit={(e) => submitPayment(e)} onChange={e => e.stopPropagation()}>
       <InputGroup>
-        <Input type="text" />
+        <Input type="text" onChange={e => setValue(e.target.value)}/>
         <InputGroupAddon addonType="append">
           <Button type="submit">Add Payment</Button>
           </InputGroupAddon>        
