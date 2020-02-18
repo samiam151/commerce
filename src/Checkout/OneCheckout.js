@@ -14,6 +14,7 @@ import { CheckoutAddress } from "../Addresses/AddressComponent";
 import { CheckoutLinetems } from "./CheckoutLineItems";
 import { CheckoutSidebar } from "./CheckoutSidebar";
 import Payment from "./Payment";
+import { Form } from "../Helpers/Functions";
 
 export function CheckoutPage(props) {
   return (
@@ -23,23 +24,13 @@ export function CheckoutPage(props) {
   );
 }
 
-function serializeForm(form) {
-  return Array.from(form.querySelectorAll("input:not([type='submit'])")).reduce(
-    (obj, input) => {
-      obj[input.name] = input.value;
-      return obj;
-    },
-    {}
-  );
-}
-
 function OneCheckoutComponent({ user, cart, checkout, ...props }) {
   function shippingAddressCallback(e) {
     e.preventDefault();
     e.stopPropagation();
     let form = e.target;
     if (form.checkValidity()) {
-      let data = serializeForm(form);
+      let data = Form.serialize(form);
       let address = new Address();
       address.populateAddress(
         data["address-fname"],
@@ -59,7 +50,7 @@ function OneCheckoutComponent({ user, cart, checkout, ...props }) {
     e.stopPropagation();
     let form = e.target;
     if (form.checkValidity()) {
-      let data = serializeForm(form);
+      let data = Form.serialize(form);
       let address = new Address();
       address.populateAddress(
         data["address-fname"],

@@ -22,13 +22,13 @@ export function Choose({ options, ...props }) {
         <FormGroup tag="fieldset">
           {optionsMap.map((option, index) => {
             return (
-              <FormGroup check>
+              <FormGroup check key={`chooseGroup-${index}`}>
                 <Label check>
                   <Input
                     type="radio"
                     name={`option${index}--${formID}`}
                     data-index={index}
-                    checked={optionSelected["id"] === index}
+                    defaultChecked={optionSelected["id"] === index}
                   />{" "}
                   {option["label"]}
                 </Label>

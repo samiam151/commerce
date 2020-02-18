@@ -72,7 +72,7 @@ function MiniCartItems({ items, ...props }) {
     <div className="minicart__items">
       <Container fluid={true}>
         {items.map((item, index) => (
-          <Fragment>
+          <Fragment key={`miniCartItem-${index}`}>
             {item}
             <hr />
           </Fragment>

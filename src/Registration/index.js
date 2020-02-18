@@ -14,11 +14,11 @@ function _RegistrationComponent({ registration, ...props }) {
             <RegistrationProgress context={registration} />
             <div className="registrationComponent">
                 <div className="registrationComponent__container">
-                    { registration.currentStep === 1 && <AccountInformationComponent /> }
-                    { registration.currentStep === 2 && <ShipppingInformationComponent /> }
-                    { registration.currentStep === 3 && <ConfirmAccountComponent /> }
-                    { registration.currentStep !== 1 && <Button onClick={registration.previousRegistrationPage}>Back</Button> }
-                    { registration.currentStep !== 3 && <Button onClick={registration.continueRegistrationPage}>Continue</Button> }
+                    { registration.currentStep === 1 && <AccountInformationComponent context={registration} /> }
+                    { registration.currentStep === 2 && <ShipppingInformationComponent context={registration} /> }
+                    { registration.currentStep === 3 && <ConfirmAccountComponent context={registration} /> }
+                    {/* { registration.currentStep !== 1 && <Button onClick={registration.previousRegistrationPage}>Back</Button> }
+                    { registration.currentStep !== 3 && <Button onClick={registration.continueRegistrationPage}>Continue</Button> } */}
                 </div>
             </div>
         </Fragment>

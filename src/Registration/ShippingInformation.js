@@ -1,12 +1,23 @@
 import React from "react";
-import { Form, FormGroup, Label, Input, Col, Row } from "reactstrap";
+import { Form, FormGroup, Label, Input, Col, Row, Button } from "reactstrap";
 import { NotEmptyInput, IsEmailInput } from "../Shared/Inputs";
+import { Form as FormHelper } from "../Helpers/Functions";
 
-export function ShipppingInformationComponent({ ...props }) {
+export function ShipppingInformationComponent({ context, ...props }) {
+    function submitForm(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        let form = e.target;
+        let formData = FormHelper.serialize(form);
+        console.log(formData);
+        context.setShippingInformation(formData);
+        context.continueRegistrationPage();
+    }
+
     return (
         <div className="registartion__shipping">
             <h3>Company Information</h3>
-            <Form>
+            <Form onSubmit={e => submitForm(e)}>
                 <Row>
                     <Col xs="12" md="6">
                         <FormGroup>
@@ -22,10 +33,8 @@ export function ShipppingInformationComponent({ ...props }) {
                         </FormGroup>
                     </Col>
                 </Row>
-            </Form>
-            <br />
-            <h3>Shipping Information</h3>
-            <Form>
+                <br />
+                <h3>Shipping Information</h3>
                 <Row>
                     <Col xs="12" md="6">
                         <FormGroup>
@@ -59,8 +68,8 @@ export function ShipppingInformationComponent({ ...props }) {
                 <Row>
                     <Col xs="12" md="6">
                         <FormGroup>
-                            <Label for="registartion__shipping--address2">Address 2*</Label>
-                            <NotEmptyInput required className="registartion__shipping--address2" name="registartion__shipping--address2" id="registartion__shipping--address2" />
+                            <Label for="registartion__shipping--address2">Address 2</Label>
+                            <NotEmptyInput className="registartion__shipping--address2" name="registartion__shipping--address2" id="registartion__shipping--address2" />
                         </FormGroup>
 
                     </Col>
@@ -101,7 +110,23 @@ export function ShipppingInformationComponent({ ...props }) {
                         </FormGroup>
                     </Col>
                 </Row>
+                <Row>
+                <RegGroup>
+                        { context.currentStep !== 1 && <Button>Back</Button> }
+                        { context.currentStep !== 3 && <Button type="submit">Continue</Button> }
+                    </RegGroup>
+                </Row>
             </Form>
         </div>
+    );
+}
+
+function RegGroup({ children, ...props }) {
+    return (
+        <Col xs="12" md="6">
+            <FormGroup>
+                {children}
+            </FormGroup>
+        </Col>
     );
 }

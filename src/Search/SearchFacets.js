@@ -17,7 +17,7 @@ export default function SearchFacets({ facets, ...props }) {
         Clear All Facets
       </Button>
       {Object.keys(searchFacets).map((facet, index) => (
-        <SearchFacet facet={facet} />
+        <SearchFacet facet={facet} key={`searchFacet-${index}`} />
       ))}
     </div>
   );
@@ -38,7 +38,7 @@ function SearchFacet({ facet, ...props }) {
         <Card>
           <CardBody>
             {searchFacets[facet].map((item, index) => (
-              <SearchFacetInput item={item} facet={facet} />
+              <SearchFacetInput key={`searchFacetInput-${index}`} item={item} facet={facet} />
             ))}
           </CardBody>
         </Card>
@@ -55,7 +55,7 @@ function SearchFacetInput({ facet, item, ...props }) {
       <Label for={item}>
         <Input
           type={"checkbox"}
-          checked={checked}
+          defaultChecked={checked}
           defaultValue={item}
           id={item}
           onClick={e =>

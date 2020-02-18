@@ -20,7 +20,7 @@ export function BaseInput({ validators, ...props }) {
     const [hasError, setHasError] = useState(false);
     function handleChange(e) {
         let value = e.target.value;
-        console.log(value);
+        //console.log(value);
         setValue(value);
         let _hasError = false;
         validators.forEach(val => {

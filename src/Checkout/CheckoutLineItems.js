@@ -13,8 +13,9 @@ export function CheckoutLinetems({ items, ...props }) {
   return (
     <Fragment>
       <h3>Checkout Items</h3>
-      {citems.map(item => (
+      {citems.map((item, index) => (
         <CheckoutLineItem
+          key={`checkoutItem-${index}`}
           item={item[0]}
           quantity={item[1]}
           showAddToCart={false}
