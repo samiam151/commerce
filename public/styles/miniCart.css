@@ -9,6 +9,9 @@
   }
   .minicart__items {
     font-size: 12px;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   
   .miniCart__price {
@@ -19,6 +22,7 @@
     display: block;
     width: 320px;
     left: auto;
+    top: 4px !Important;
   }
 
   .miniCart--buttons {

@@ -18,7 +18,7 @@ function Header({ cart, user, search, ...props }) {
       <Container fluid={true}>
         <Row className="header--row">
           <Col xs="6">
-            <p>PageBroke Home</p>
+            <p>React Ecommerce</p>
           </Col>
           <Col xs="6" className="header--links">
             <Link to="/practice">Utilitiy Components</Link>
