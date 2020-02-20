@@ -28,7 +28,7 @@ export function Choose({ options, ...props }) {
                     type="radio"
                     name={`option${index}--${formID}`}
                     data-index={index}
-                    defaultChecked={optionSelected["id"] === index}
+                    checked={optionSelected["id"] === index}
                   />{" "}
                   {option["label"]}
                 </Label>
