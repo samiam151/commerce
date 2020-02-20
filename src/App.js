@@ -37,9 +37,9 @@ export default function App() {
               </Route>
 
               {/* Registration Page */}
-              <Route path="/register">
+              {/* <Route path="/register">
                 <RegistrationPage />
-              </Route>
+              </Route> */}
 
               {/* Home Page */}
               <Route path="/">

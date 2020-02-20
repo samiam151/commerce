@@ -11,8 +11,7 @@ export default function Product({ item }) {
         <Property label="Code" value={item["Code"]} />
         <Property label="Description" value={item["Description"]} />
         <Property label="Availability" value={item["Availability"]} />
-        <Property label="SearchFacet3" value={item["SearchFacet3"]} />
-        <Property label="SearchFacet4" value={item["SearchFacet4"]} />
+        <Property label="Color" value={item["Color"]} />
       </div>
 
       <Purchasable item={item} />

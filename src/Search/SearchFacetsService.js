@@ -1,6 +1,6 @@
 import products from "../data";
 
-export const facets = ["SearchFacet3", "Designer"];
+export const facets = ["Color", "Designer"];
 
 export const searchFacets = products.reduce((facetsDictionary, product) => {
   facets.forEach(facet => {

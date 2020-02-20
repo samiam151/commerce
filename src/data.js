@@ -7,7 +7,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Giant Jewel Flower Suncatchers (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct, 3, 2018",
     Designer: "Brands"
@@ -20,7 +20,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Small Jewel Flowers (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "11/15/2018",
     Availability: "Out of Stock, ETA: Nov, 15, 2018",
     Designer: "House & Home"
@@ -33,7 +33,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Two-Toned Hummingbirds (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct, 3, 2018",
     Designer: "House & Home"
@@ -46,7 +46,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Two-Toned Dragonflies (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "11/01/2018",
     Availability: "Out of Stock, ETA: Nov, 1, 2018",
     Designer: "Brands"
@@ -59,7 +59,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Jewel Bird Hanging Ornaments w/ Tassel (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -72,7 +72,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Jewel Apple Hanging Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/14/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -85,7 +85,7 @@ const alldata = [
     MinQuantity: 12,
     Increment: 12,
     Description: "Jewel Apple Hanging Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/14/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -98,7 +98,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Rainbow Hummingbirds (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "House & Home"
@@ -111,7 +111,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Sitting Rainbow Butterflies (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "11/01/2018",
     Availability: "Out of Stock, ETA: Nov,1,2018",
     Designer: "House & Home"
@@ -124,7 +124,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Rainbow Butterflies (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "Brands"
@@ -137,7 +137,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Small Hanging Two-Toned Birds (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "House & Home"
@@ -150,7 +150,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Angel Sentiments (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "House & Home"
@@ -163,7 +163,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Angel Sentiments Assortment (48 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "Brands"
@@ -176,7 +176,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Jewel Butterflies w/ Tassels (18 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -189,7 +189,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Medium Sunflower Ornament",
-    SearchFacet3: "Yellow",
+    Color: "Yellow",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "Brands"
@@ -202,7 +202,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Medium Sunflower Ornament w/ Leaves",
-    SearchFacet3: "Yellow",
+    Color: "Yellow",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "Seasons"
@@ -215,7 +215,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Pearl Angel Ornament",
-    SearchFacet3: "Clear",
+    Color: "Clear",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -228,7 +228,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Rainbow Starburst Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/14/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -241,7 +241,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Gem Floral Stakes (24 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Seasons"
@@ -256,7 +256,7 @@ const alldata = [
     Increment: 1,
     Description:
       "Gem Floral Stakes w/ Celebration Cards Assortment (24 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -269,7 +269,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Floral Burst Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -282,7 +282,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Acrylic Rainbow Assortments (48 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -295,7 +295,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Rainbow Starburst On Crystals (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -308,7 +308,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Small Butterfly Ornaments (16 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -321,7 +321,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Hanging Dolphins (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -334,7 +334,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Fantasy Character Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -347,7 +347,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Beaded Flower Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/22/2018",
     Availability: "Out of Stock, ETA: Aug,22,2018",
     Designer: "Brands"
@@ -360,7 +360,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Frog Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -373,7 +373,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Bee & Ladybug Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/30/2018",
     Availability: "Out of Stock, ETA: Oct,30,2018",
     Designer: "Brands"
@@ -386,7 +386,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Patriotic Angel Ornament w/ Stars",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -399,7 +399,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Large Hanging Butterfly",
-    SearchFacet3: "Clear",
+    Color: "Clear",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -412,7 +412,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Rainbow Angel Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/14/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -425,7 +425,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Ballet Slipper Ornament",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -438,7 +438,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Remembrance",
-    SearchFacet3: "Yellow",
+    Color: "Yellow",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "House & Home"
@@ -451,7 +451,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Guardian Angel",
-    SearchFacet3: "Yellow",
+    Color: "Yellow",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "Brands"
@@ -464,7 +464,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Friendship",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -477,7 +477,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Love",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -490,7 +490,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Strength",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -503,7 +503,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Courage",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -516,7 +516,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Prayer",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "House & Home"
@@ -529,7 +529,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Hope",
-    SearchFacet3: "Purple",
+    Color: "Purple",
     SearchFacet4: "11/15/2018",
     Availability: "Out of Stock, ETA: Nov,15,2018",
     Designer: "Brands"
@@ -542,7 +542,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Faith",
-    SearchFacet3: "Blue",
+    Color: "Blue",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -555,7 +555,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Get Well",
-    SearchFacet3: "Blue",
+    Color: "Blue",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "Brands"
@@ -568,7 +568,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Comfort",
-    SearchFacet3: "Pink",
+    Color: "Pink",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "House & Home"
@@ -581,7 +581,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Angel Sentiments - Healing",
-    SearchFacet3: "Pink",
+    Color: "Pink",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "Brands"
@@ -594,7 +594,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Garden Stakes (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -607,7 +607,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Jewel Garden Stake Assortment (24 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -620,7 +620,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Crocodile Ornament",
-    SearchFacet3: "Green",
+    Color: "Green",
     SearchFacet4: "08/22/2018",
     Availability: "Out of Stock, ETA: Aug,22,2018",
     Designer: "House & Home"
@@ -633,7 +633,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Summer Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -646,7 +646,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Orchid Posy Pots (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -659,7 +659,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Orchid Posy Pots Assortment (12 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -672,7 +672,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Orca Ornament",
-    SearchFacet3: "Black",
+    Color: "Black",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -685,7 +685,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Little Black Dress Ornament",
-    SearchFacet3: "Black",
+    Color: "Black",
     SearchFacet4: "08/14/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -698,7 +698,7 @@ const alldata = [
     MinQuantity: 12,
     Increment: 12,
     Description: "Little Black Dress Ornament",
-    SearchFacet3: "Black",
+    Color: "Black",
     SearchFacet4: "08/14/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -711,7 +711,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Eagle Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -724,7 +724,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Hydrangea Posy Pot",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -739,7 +739,7 @@ const alldata = [
     Increment: 1,
     Description:
       "Hydrangea Posy Pots w/ Celebration Cards Assortment (12 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -752,7 +752,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Pansy Posy Pot",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -765,7 +765,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Pansy Posy Pots w/ Celebration Cards (12 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -778,7 +778,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Bee & Ladybug Posy Pots (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -791,7 +791,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Bee & Ladybug Posy Pots Assortment (12 pc. assortment)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -814,7 +814,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Colorful Butterflies (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/28/2018",
     Availability: "Out of Stock, ETA: Aug,28,2018",
     Designer: "House & Home"
@@ -827,7 +827,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Small Clear Hummingbird",
-    SearchFacet3: "Clear",
+    Color: "Clear",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -840,7 +840,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Rainbow Beaded Star Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -853,7 +853,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Hanging Dove w/ Gold Beads",
-    SearchFacet3: "Clear",
+    Color: "Clear",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "Brands"
@@ -866,7 +866,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Multi Colored Angel Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -879,7 +879,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Sitting Owls (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -892,7 +892,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Standing Crosses (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -905,7 +905,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Sacred Blessings Glass Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -918,7 +918,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Garden Butterflies (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -931,7 +931,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Star Sun Catchers (8 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -944,7 +944,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Sea Turtles (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -957,7 +957,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Patriotic Floral Burst Ornament",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -970,7 +970,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Mini Patriotic Starburst",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -983,7 +983,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Mini Rainbow Starburst",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -996,7 +996,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Pastel Boho Flowers (16 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1009,7 +1009,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Rainbow Flower with Leaf",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1022,7 +1022,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Clear Pendant Ornament",
-    SearchFacet3: "Clear",
+    Color: "Clear",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1035,7 +1035,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Blessed Angel - Mom",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1048,7 +1048,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Blessed Angel - Daughter",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1061,7 +1061,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Blessed Angel - Friend",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/15/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1074,7 +1074,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Blessed Angel - Teacher",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1087,7 +1087,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Blessed Angel - Grandmother",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/15/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1100,7 +1100,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Blessed Angel - Guardian Angel",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1113,7 +1113,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 4,
     Description: "Glass Ornament - Gramdma",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1126,7 +1126,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 4,
     Description: "Glass Ornament - Daughter",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1139,7 +1139,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 4,
     Description: "Glass Ornament - Sister",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1152,7 +1152,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 4,
     Description: "Glass Ornament - Friend",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1165,7 +1165,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 4,
     Description: "Glass Ornament - Nurse",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1178,7 +1178,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Enchanted Garden Stakes (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1191,7 +1191,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 12,
     Description: "Hanging Clear Cross",
-    SearchFacet3: "Clear",
+    Color: "Clear",
     SearchFacet4: "09/20/2018",
     Availability: "Out of Stock, ETA: Sep,20,2018",
     Designer: "Brands"
@@ -1204,7 +1204,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Butterfly Facet Balls (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "11/01/2018",
     Availability: "Out of Stock, ETA: Nov,1,2018",
     Designer: "House & Home"
@@ -1217,7 +1217,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Beaded Dragonfly Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/03/2018",
     Availability: "Out of Stock, ETA: Oct,3,2018",
     Designer: "Brands"
@@ -1230,7 +1230,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Daisy Floral Stakes (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1243,7 +1243,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Vintage Cross",
-    SearchFacet3: "White",
+    Color: "White",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1256,7 +1256,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Inspirational Angels (16 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "10/17/2018",
     Availability: "Out of Stock, ETA: Oct,17,2018",
     Designer: "House & Home"
@@ -1269,7 +1269,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Rainbow Butterfly Garland",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"
@@ -1282,7 +1282,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 6,
     Description: "Patriotic Heart",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "Brands"
@@ -1295,7 +1295,7 @@ const alldata = [
     MinQuantity: 1,
     Increment: 1,
     Description: "Facet Ball Angel Ornaments (12 pc. ppk.)",
-    SearchFacet3: "Multi",
+    Color: "Multi",
     SearchFacet4: "08/20/2018",
     Availability: "In Stock",
     Designer: "House & Home"

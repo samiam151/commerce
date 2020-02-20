@@ -67,7 +67,7 @@ function SignInPageComponent({ user, ...props }) {
                 color="secondary"
                 onClick={() => logInAsAdmin()}
               >
-                Log In As Admin
+                Log In As Guest Admin
               </Button>
             </FormGroup>
           </Form>

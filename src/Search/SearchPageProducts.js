@@ -1,13 +1,15 @@
 import React, { Fragment, useContext, useEffect, useState } from "react";
+import { Link} from "react-router-dom";
 import data from "../data";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Alert } from "reactstrap";
 import Product from "../Shared/Product";
 import { SearchableContext } from "../Contexts/Searchable/SearchableContext";
 import { calculateSearchProducts } from "./SearchFacetsService";
 import { withContexts } from "../Contexts/AllContexts";
 import { CartContext } from "../Contexts/Cart/CartContext";
+import { UserContext } from "../Contexts/User/UserContext";
 
-function SearchPageProductsComponent({ searchContext, ...props }) {
+function SearchPageProductsComponent({ searchContext, userContext, ...props }) {
   const [activeProducts, setActiveProducts] = useState(data);
   useEffect(() => {
     let productsToShow = calculateSearchProducts(searchContext);
@@ -16,6 +18,13 @@ function SearchPageProductsComponent({ searchContext, ...props }) {
 
   return (
     <Container fluid={true}>
+      {
+        !userContext.activeUser &&
+        <Alert color="info">
+          Please <Link to="/log-in">sign in</Link> to add items to the cart! 
+          If you are a guest, you can log in as a Guest Admin in the sign in page.
+        </Alert>
+      }
       <b>
         Active Products: {`${activeProducts.length}`} out of {`${data.length}`}
       </b>
@@ -73,5 +82,6 @@ function LineItemHeader(props) {
 
 export default withContexts(SearchPageProductsComponent, {
   searchContext: SearchableContext,
-  cartContext: CartContext
+  cartContext: CartContext,
+  userContext: UserContext
 });
